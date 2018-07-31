@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="算法.js"></script>
+    <script src="图.js"></script>
+    <script src="Dijkstra.js"></script>
+    <script src="最小硬币找零.js"></script>
+    <script src="Floyd.js"></script>
+    <script src="最小生成树.js"></script>
+    <script src="背包问题.js"></script>
+    <script src="矩阵链相乘.js"></script>
+</head>
+<body>
+    <img src="dijkstra.png" alt="">
+    <script>
+        // var myArr = new ArrayList();
+        // myArr.insert(2);
+        // myArr.insert(8);
+        // myArr.insert(5);
+        // myArr.insert(6);
+        // myArr.insert(4);
+        // myArr.insert(3);
+        // myArr.insert(9);
+        // myArr.insert(0);
+        // myArr.insert(1);
+        // myArr.heapSort();
+        // var newArr = myArr.toString();
+        // console.log(newArr) 
+        
+        
+    //     var graph = new Graph();
+    //     var myVertices = ['A','B','C','D','E','F','G','H','I'];
+    //     for (var i = 0; i < myVertices.length; i++) {
+    //         graph.addVertex(myVertices[i]);
+    //     }
+    //     graph.addEdge('A', 'B');
+    //     graph.addEdge('A', 'C');
+    //     graph.addEdge('A', 'D');
+    //     graph.addEdge('C', 'D');
+    //     graph.addEdge('C', 'G');
+    //     graph.addEdge('D', 'G');
+    //     graph.addEdge('D', 'H');
+    //     graph.addEdge('B', 'E');
+    //     graph.addEdge('B', 'F');
+    //     graph.addEdge('E', 'I');
+    //     function printNode(value) {
+    //     console.log('Visited vertex:' + value);
+    // }
+    //     // var shortestPathA = graph.BFS(myVertices[0]);
+    //     // console.log(shortestPathA)
+    //     console.log(graph.dfs(printNode));
+
+    // var dijkstra = new Dijkstra();
+    // var a = dijkstra.dijkstra(0);
+    // console.log(a);
+
+    // var change = new MinCionChange([1,2,3,4,5]);
+    // console.log(change.makeChange(20));
+    // console.log(change.makeChange(2));
+    // var floyd = new Floyd();
+    // var a = floyd.floydWarshall();
+    // console.log(a);
+    // var mst = new MST();
+    // var a = mst.prim();
+    // console.log(a);
+    //  var mst = new MST();
+    // var a = mst.kruskal();
+    // console.log(a);
+    // var values = [3,4,5],
+    //     weights = [2,3,4],
+    //     capacity = 5,
+    //     n = values.length;
+    // var knapSack = new KnapSack(capacity, weights, values, n);
+    // var a = knapSack.knapSack()
+    // console.log(a);
+
+    //最小矩阵链相乘
+    var a = new MatrixChainOrder();
+    var p = [10, 100, 5, 50, 1],
+        n = p.length;
+    console.log(a.matrixChainOrder(p, n))
+
+
+        
+        
+    </script>
+    
+</body>
+</html>
